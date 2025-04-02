@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Česnek Bike Servis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span class="green">Česnek</span> Bike Servis</h1>
+                <p class="motto">Servis bez předsudků</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="about.html">O nás</a></li>
+                    <li><a href="services.html">Služby</a></li>
+                    <li><a href="pricing.html">Ceník</a></li>
+                    <li class="active"><a href="contact.html">Kontakt</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Kontakt</h1>
+            <p>Rádi vás uvidíme v naší dílně</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h2><i class="fas fa-map-marker-alt"></i> Kde nás najdete</h2>
+                <address>
+                    <strong>Česnek Bike Servis</strong><br>
+                    Na Oboře 878/7<br>
+                    276 01 Mělník<br>
+                    Česká republika
+                </address>
+
+                <h2><i class="fas fa-clock"></i> Otevírací doba</h2>
+                <table class="opening-hours">
+                    <tr>
+                        <td>Pondělí - Pátek</td>
+                        <td>9:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sobota</td>
+                        <td>9:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Neděle</td>
+                        <td>zavřeno</td>
+                    </tr>
+                </table>
+
+                <h2><i class="fas fa-phone"></i> Kontaktní údaje</h2>
+                <p>
+                    <strong>Telefon:</strong> +420 123 456 789<br>
+                    <strong>Email:</strong> info@cesnekbike.cz
+                </p>
+            </div>
+
+            <div class="contact-form">
+                <h2><i class="fas fa-envelope"></i> Napište nám</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Jméno a příjmení</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Vaše zpráva</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Odeslat zprávu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <h2><i class="fas fa-map-marked-alt"></i> Mapa</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.590104303024!2d14.47409331571775!3d50.0864909794273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470beb3a1a9a0aab%3A0x400af0f6614f1e0!2sNa%20Obo%C5%99e%20878%2F7%2C%20276%2001%20M%C4%9Bln%C3%ADk!5e0!3m2!1scs!2scz!4v1620000000000!5m2!1scs!2scz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Stejné jako v index.html -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
